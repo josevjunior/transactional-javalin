@@ -8,9 +8,9 @@ import io.javalin.http.Handler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class OpenTransactionInterceptor implements Handler{
+public class OpenTransactionHandler implements Handler{
     
-    private static final Logger LOGGER = LoggerFactory.getLogger(OpenTransactionInterceptor.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(OpenTransactionHandler.class);
 
     @Override
     public void handle(Context cntxt) throws Exception {

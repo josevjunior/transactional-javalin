@@ -8,9 +8,9 @@ import java.sql.Connection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CloseTransactionInterceptor implements Handler {
+public class CloseTransactionHandler implements Handler {
     
-    private static final Logger LOGGER = LoggerFactory.getLogger(CloseTransactionInterceptor.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CloseTransactionHandler.class);
 
     @Override
     public void handle(Context cntxt) throws Exception {
